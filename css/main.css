@@ -1,0 +1,33 @@
+body {
+    margin : 3em auto;
+    width : 50em;
+    font-family : "Palatino Linotype", "Book Antiqua", Palatino;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+/* link stuff */
+
+a {
+    text-decoration : none;
+}
+
+a:link {
+    color : #009000;
+}
+
+a:visited {
+    color : #007000;
+}
+
+/* validation footer stuff */
+
+div#validation {
+    margin : 4em auto;
+}
+
+div#validation img {
+    margin : 0 auto;
+}

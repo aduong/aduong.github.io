@@ -1,0 +1,126 @@
+div#resume-container {
+    word-spacing : 0.1em;
+    line-height : 1.5;
+
+    font-family: "open sans", sans-serif;
+    font-size : medium;
+
+    width : 60em;
+    margin-left : auto;
+    margin-right: auto;
+}
+
+div#resume-top {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+div#resume-container h1,h2,h3,h4,h5,h6 {
+    font-weight : normal;
+}
+
+div#resume-content {
+}
+
+div#resume-objective {
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    margin-top: 0;
+    margin-bottom: 2em;
+    padding: 0.25em;
+}
+
+div#resume-objective p {
+    width: 40em;
+    margin: auto;
+    text-align: center;
+}
+
+div#resume-container ul {
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: disc;
+}
+
+div#resume-container ul li {
+    padding: 0.25em 0;
+}
+
+div#resume-container div.resume-section {
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+div#resume-container div.resume-section-name {
+}
+
+div#resume-container div.resume-section-name h2 {
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+div#resume-container div.resume-section-content {
+    padding-left: 1em;
+}
+
+div#resume-container div.resume-subsection {
+    padding-bottom: 1em;
+}
+
+div#resume-container div.resume-posloc-pair {
+    margin-bottom: 0.5em;
+}
+
+div#resume-container div.resume-posloc-pair p {
+    margin: 0;
+}
+
+div#resume-container p.resume-job-title {
+    font-weight: bold;
+    font-size: 110%;
+}
+
+
+div#resume-container p.resume-job-title em {
+    font-style: normal;
+    font-weight: normal;
+}
+
+div#resume-container p.resume-location strong {
+  font-size: 110%;
+  font-weight: bold;
+}
+
+div#resume-container .center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+div#resume-container h1.resume-name {
+    margin-bottom: 0.25em;
+    font-size: 250%;
+}
+
+div#resume-container div.resume-date {
+    float: right;
+}
+
+div#resume-container table.resume-list-table {
+    width: 100%;
+}
+
+div#resume-container table.resume-list-table td {
+    width: 20%;
+    height: 2.5em;
+    text-align: center;
+    vertical-align: center;
+    padding: 0.75em;
+}
+
+div#resume-container ul.nobullets {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 0;
+}
