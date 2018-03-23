@@ -67,6 +67,7 @@ div#resume-container div.resume-section-content {
 
 div#resume-container div.resume-subsection {
     padding-bottom: 1em;
+    page-break-inside: avoid;
 }
 
 div#resume-container div.resume-posloc-pair {
