@@ -47,13 +47,9 @@ div#resume-container ul {
     list-style-type: disc;
 }
 
-div#resume-container ul li {
-    padding: 0.25em 0;
-}
-
 div#resume-container div.resume-section {
     margin-top: 0;
-    margin-bottom: 2em;
+    margin-bottom: 1em;
 }
 
 div#resume-container div.resume-section-name {
