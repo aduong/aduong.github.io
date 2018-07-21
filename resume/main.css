@@ -35,6 +35,10 @@ div#resume-objective {
     padding: 0.25em;
 }
 
+div#resume-container p {
+  text-align: justify;
+}
+
 div#resume-objective p {
     width: 40em;
     margin: auto;
@@ -109,20 +113,12 @@ div#resume-container div.resume-date {
     float: right;
 }
 
-div#resume-container table.resume-list-table {
-    width: 100%;
+div#resume-container .resume-responsibilities-list {
+  text-align: justify;
+  padding-left: 2.5em;
 }
 
-div#resume-container table.resume-list-table td {
-    width: 20%;
-    height: 2.5em;
-    text-align: center;
-    vertical-align: center;
-    padding: 0.75em;
-}
-
-div#resume-container ul.nobullets {
-    list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
+div#resume-container p.resume-responsibilities-list {
+  margin-bottom: 0;
+  margin-top: 0;
 }
