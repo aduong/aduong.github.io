@@ -4,35 +4,32 @@ a {
 }
 
 div#resume-container {
-    word-spacing : 0.1em;
-    line-height : 1.5;
+  word-spacing : 0.1em;
+  line-height : 1.5;
 
-    font-family: "open sans", sans-serif;
-    font-size : medium;
+  font-family: "open sans", sans-serif;
+  font-size : medium;
 
-    width : 60em;
-    margin-left : auto;
-    margin-right: auto;
+  width : 60em;
+  margin-left : auto;
+  margin-right: auto;
 }
 
 div#resume-top {
-    margin-top: 2em;
-    margin-bottom: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 div#resume-container h1,h2,h3,h4,h5,h6 {
-    font-weight : normal;
-}
-
-div#resume-content {
+  font-weight : normal;
 }
 
 div#resume-objective {
-    border-top: 1px solid #CCCCCC;
-    border-bottom: 1px solid #CCCCCC;
-    margin-top: 0;
-    margin-bottom: 2em;
-    padding: 0.25em;
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  margin-top: 0;
+  margin-bottom: 2em;
+  padding: 0.25em;
 }
 
 div#resume-container p {
@@ -40,57 +37,54 @@ div#resume-container p {
 }
 
 div#resume-objective p {
-    width: 40em;
-    margin: auto;
-    text-align: center;
+  width: 40em;
+  margin: auto;
+  text-align: center;
 }
 
 div#resume-container ul {
-    margin-top: 0;
-    margin-bottom: 0;
-    list-style-type: disc;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style-type: disc;
 }
 
 div#resume-container div.resume-section {
-    margin-top: 0;
-    margin-bottom: 1em;
-}
-
-div#resume-container div.resume-section-name {
+  margin-top: 0;
+  margin-bottom: 1em;
 }
 
 div#resume-container div.resume-section-name h2 {
-    padding-top: 0;
-    margin-top: 0;
-    margin-bottom: 0.5em;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 0.5em;
 }
 
 div#resume-container div.resume-section-content {
-    padding-left: 1em;
+  padding-left: 1em;
 }
 
 div#resume-container div.resume-subsection {
-    padding-bottom: 1em;
-    page-break-inside: avoid;
+  padding-bottom: 1em;
+  page-break-inside: avoid;
 }
 
 div#resume-container div.resume-posloc-pair {
-    margin-bottom: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 div#resume-container div.resume-posloc-pair p {
-    margin: 0;
+  margin: 0;
 }
 
 div#resume-container p.resume-job-title {
-    font-weight: bold;
-    font-size: 110%;
+  font-weight: bold;
+  font-size: 110%;
 }
 
 
 div#resume-container p.resume-job-title em {
-    font-style: normal;
-    font-weight: normal;
+  font-style: normal;
+  font-weight: normal;
 }
 
 div#resume-container p.resume-location strong {
@@ -99,18 +93,18 @@ div#resume-container p.resume-location strong {
 }
 
 div#resume-container .center {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 div#resume-container h1.resume-name {
-    margin-bottom: 0.25em;
-    font-size: 250%;
+  margin-bottom: 0.25em;
+  font-size: 250%;
 }
 
 div#resume-container div.resume-date {
-    float: right;
+  float: right;
 }
 
 div#resume-container .resume-responsibilities-list {
