@@ -3,6 +3,22 @@ a {
   color: inherit;
 }
 
+ul.horizontal-list.center {
+	padding: 0;
+}
+
+ul.horizontal-list {
+	list-style-position: outside;
+}
+
+ul.horizontal-list > li {
+  display: inline-block;
+}
+
+ul.horizontal-list > li + li:before {
+	content: " | ";
+}
+
 div#resume-container {
   word-spacing : 0.1em;
   line-height : 1.5;
@@ -99,7 +115,7 @@ div#resume-container .center {
 }
 
 div#resume-container h1.resume-name {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
   font-size: 250%;
 }
 
