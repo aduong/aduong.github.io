@@ -1,7 +1,9 @@
 body {
     margin : 3em auto;
     max-width : 50em;
-    font-family: "open sans", sans-serif;
+    font-family : "open sans", sans-serif;
+    color : #333333;
+    background-color: #f6f6f6;
 }
 
 ul.links {
