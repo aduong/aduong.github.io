@@ -1,0 +1,23 @@
+ul {
+    list-style : square inside;
+}
+
+a.tombstone {
+    display : block;
+    float : right;
+    color : #333333;
+    font-size : 200%;
+}
+
+a.tombstone:before {
+    content: '◼';
+}
+
+hr.dinkus {
+    border : none;
+    text-align : center;
+}
+
+hr.dinkus:after {
+    content : '⁂';
+}
