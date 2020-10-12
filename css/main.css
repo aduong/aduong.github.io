@@ -1,6 +1,6 @@
 body {
-    margin : 3em auto;
-    max-width : 50em;
+    margin: 3em auto;
+    max-width : min(50em, 90%);
     font-family : "open sans", sans-serif;
     color : #333333;
     background-color: #f6f6f6;
