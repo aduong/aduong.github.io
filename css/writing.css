@@ -2,6 +2,10 @@ ul {
     list-style : square inside;
 }
 
+a.name {
+    font-style: italic;
+}
+
 a.tombstone {
     display : block;
     float : right;
@@ -20,4 +24,14 @@ hr.dinkus {
 
 hr.dinkus:after {
     content : '⁂';
+}
+
+img {
+    width: 100%;
+}
+
+figcaption {
+    width: 100%;
+    margin: auto;
+    font-style: italic;
 }
