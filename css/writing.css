@@ -17,12 +17,16 @@ a.tombstone:before {
     content: '◼';
 }
 
-hr.dinkus {
+time {
+    font-style: italic;
+}
+
+hr {
     border : none;
     text-align : center;
 }
 
-hr.dinkus:after {
+hr:after {
     content : '⁂';
 }
 

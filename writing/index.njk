@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width" />
     <title>Writing</title>
     <link rel="preload" as="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
-    <link rel="preload" as="stylesheet" href="../css/main.css" />
-    <link rel="preload" as="stylesheet" href="../css/writing.css" />
-    <link rel="prefetch" href="../index.html" />
+    <link rel="preload" as="stylesheet" href="/css/main.css" />
+    <link rel="preload" as="stylesheet" href="/css/writing.css" />
+    <link rel="prefetch" href="/" />
   </head>
   <body>
     <main>
       <h1>Writing</h1>
       <ul class="links">
-        <li><a href="typing-speed.html">Typing Speed</a></li>
-        <li><a href="online.html">Writing: Online</a></li>
+      {%- for post in collections.posts | reverse -%}
+        <li>
+          <a href="{{ post.url }}">
+            <time>{{ post.data.date | toUTCDate }}</time>: {{ post.data.title }}
+          </a>
+        </li>
+      {%- endfor -%}
       </ul>
     </main>
-    <a class="tombstone" href="../index.html"></a>
+    <a class="tombstone" href="/"></a>
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans" />
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
     <link rel="stylesheet" type="text/css" href="../css/writing.css" />
