@@ -4,6 +4,7 @@ services:
   env: static
   buildCommand: npm install && npx @11ty/eleventy
   staticPublishPath: _site
+  pullRequestPreviewsEnabled: true
   headers:
   - path: /*
     name: Cache-Control
