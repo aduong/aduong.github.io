@@ -1,0 +1,10 @@
+services:
+- name: adrian
+  type: web
+  env: static
+  buildCommand: npm install && npx @11ty/eleventy
+  staticPublishPath: _site
+  headers:
+  - path: /*
+    name: Cache-Control
+    value: max-age=300
