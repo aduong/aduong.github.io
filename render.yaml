@@ -8,3 +8,6 @@ services:
   - path: /*
     name: Cache-Control
     value: max-age=300
+  domains:
+  - adrianduong.com
+  - www.adrianduong.com
