@@ -6,7 +6,7 @@ tags: posts
 ---
 
 One time after a friendly game of [TypeRacer](https://play.typeracer.com),
-asked me whether I thought typing speed mattered for work. I answered
+a coworker asked me whether I thought typing speed mattered for work. I answered
 conservatively, "there's absolutely a minimum and faster generally
 means you can try more things per unit time, but the gains probably
 drop off pretty rapidly". It's been years since that exchange, but I
