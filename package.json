@@ -21,6 +21,7 @@
     "@11ty/eleventy-plugin-rss": "^1.1.1"
   },
   "dependencies": {
-    "@11ty/eleventy-img": "^0.8.3"
+    "@11ty/eleventy-img": "^0.10.0",
+    "npm-check-updates": "^11.8.5"
   }
 }
